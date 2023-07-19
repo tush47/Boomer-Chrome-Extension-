@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Boomer",
+    "version": "1.0",
+    "description": "I won't let you wait your precious time",
+  
+    "icons": {
+      "24": "icon24.png",
+      "48": "icon48.png",
+      "96": "icon96.png"
+    },
+  
+    "permissions": [
+      "alarms",
+      "notifications"
+    ],
+  
+    "background": {
+      "service_worker": "background.js"
+    },
+  
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon24.png",
+        "48": "icon48.png"
+      }
+    }
+  }
+  
+  
